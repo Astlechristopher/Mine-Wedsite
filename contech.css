@@ -1,0 +1,140 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    background: #1b9bff;
+    transition: 3s;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.l1 {
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+.p1 {
+    color: white;
+    position: relative;
+    top: 83px;
+    left: 74px;
+}
+
+.l2 {
+    color: white;
+    position: relative;
+    top: 55px;
+    left: 280px;
+}
+
+.p2 {
+    color: white;
+    position: relative;
+    top: 18px;
+    left: 370px;
+}
+
+.l3 {
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.p3 {
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 143px;
+}
+
+.l4 {
+    color: white;
+    position: relative;
+    left: 340px;
+    bottom: 25px;
+}
+
+.p4 {
+    color: white;
+    position: relative;
+    left: 425px;
+    top: -62px;
+}
+
+.l5 {
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
+.p5 {
+    color: white;
+    position: relative;
+    left: 76px;
+    top: -66px;
+}
+
+div {
+    position: relative;
+    left: 800px;
+    bottom: 280px;
+}
+
+.footer {
+    background-color: #0082e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 14px;
+}

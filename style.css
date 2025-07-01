@@ -1,0 +1,142 @@
+.navbar{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px ;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: 3s;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color: #000000;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    /* width: 100%;
+    height: auto;
+    display: block; */
+
+    /* width: 100%;
+    height: 180px;       /* Fixed height for uniformity */
+    /* object-fit: cover;   /* Crops image while keeping aspect ratio */
+    /* display: block; */ 
+    width: 100%;
+  height: 180px;         /* Fixed height for all images */
+  object-fit: cover;     /* Crop while maintaining aspect ratio */
+  object-position: center; /* Crop from center */
+  display: block;
+
+  }
+  
+  .card h2, .card p {
+    padding: 0 15px;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+
+  body{
+  background-color: black;
+}
+.container{
+    margin:100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img {
+    width:10%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid blue;
+    transition: all ease-in-out 0.5s;
+
+}
+.container img:hover{
+    width:45%
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.footer {
+    background-color: #0082e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 14px;
+}
